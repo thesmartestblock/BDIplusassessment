@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    /* color: azure; */
+    /* background-color: lightcoral; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: black;
+}
+
+#data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  .x {
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #fff;
+    /* background-color: orange; */
+  }
+  
+  .tile {
+    background-color: rgba(49, 65, 183, 0.7);
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .title{
+    font-size: larger;
+  }
+  
+#header{
+  display: flex;
+  justify-content: space-between;
+}
